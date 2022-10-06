@@ -52,6 +52,9 @@ img{
     background-color: var(--clr1);
     color: var(--clr2);
 }
+.nav-name{
+    font-size:1.5rem;
+}
 
 /* About Us */
 
