@@ -1,0 +1,179 @@
+*{
+    padding: 0%;
+    margin: 0% ;
+    box-sizing: border-box;
+}
+:root{
+    --clr1:#292847;
+    --clr2:#f5ba38;
+    --clr3:rgb(255, 254, 184);
+}
+
+
+html{
+    font-size: 16px;
+}
+
+
+
+
+body{
+    background-color: var(--clr2);
+}
+
+
+h2{
+    width: 100%;
+    text-align: center;
+    color: var(--clr1);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.slider1{
+    height: 41.25rem;
+}
+.name{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 3rem;
+}
+.name1{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.nav{
+    background-color: var(--clr1);
+}
+.nav11{
+    color: var(--clr2);
+}
+.dd{
+    background-color: var(--clr1);
+    color: var(--clr2);
+}
+
+/* About Us */
+
+h2{
+    color: var(--clr1);
+    padding: 0.5rem 0;
+}
+.para{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+
+
+/* Our Services */
+h3{
+    margin-top: 20px;
+}
+.icon{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    transform: translateY(30px);
+}
+.serve{
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--clr2);
+}
+.cal{
+    margin: 0%;
+    padding: 1rem;
+    color: var(--clr1);
+    background-color: var(--clr2);
+}
+.cal img{
+    width: 100px;
+    height: 100px; 
+}
+span{
+    width: 100%;
+    text-align: center;
+}
+.text{
+    width: 100%;
+    height: 50px;
+    transition: .5s;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0;
+}
+.cal:hover .icon{
+    transform: translateY(0px);
+    cursor: default;
+}
+.cal:hover .text{
+    opacity: 1;
+}
+
+/* Contact Us */
+
+.ctnt{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 30px;
+}
+.ctnt a{
+    margin: 1rem;
+    font-size: 1.1rem;
+    height: 20px;
+    text-decoration: none;
+    color: rgb(88, 88, 99);
+    transition: .5s;
+}
+.ctnt a:hover{
+    color: var(--clr2);
+    transform: scale(1.2)
+}
+
+
+
+
+
+
+
+
+
+/* media querries */
+@media screen and (max-width:1024px){
+    html{
+        font-size: 14px;
+    }    
+}
+@media screen and (max-width:768px){
+    .para{
+        margin-left: 10rem;
+        margin-right: 10rem
+    }
+      
+}
+@media screen and (max-width:426px){
+    html{
+        font-size: 10px;
+    }
+    .para{
+        margin-left: 1rem;
+        margin-right: 1rem
+    }
+    .slider1{
+        height: 30rem;
+    }
+      
+}
